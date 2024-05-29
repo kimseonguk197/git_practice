@@ -12,3 +12,6 @@ git remote remove origin
 # 원격주소 변경
 git remote set-url origin 레포주소
 
+# git 설정정보 조회
+git config --list
+
