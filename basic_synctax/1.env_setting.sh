@@ -10,7 +10,7 @@ git push origin 브랜치명
 # github 인증방법 2가지
 # 1.token인증방식 : github에서 직접 보안키(token) 발급
 
-# 2.제3자인증(oauth)방식  
+# 2.제3자인증(oauth)방식   
 
 
 
