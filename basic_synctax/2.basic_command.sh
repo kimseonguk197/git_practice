@@ -63,6 +63,8 @@ git diff A브랜치 B브랜치
 # git fetch
 # 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
 # 비교 : git pull origin master와 git fetch origin master 비교
+# 모든 브랜치 정보 fetch
+git fetch --all
 
 # 작업중인 사항을 임시저장
 git stash 
@@ -98,5 +100,10 @@ git checkout 브랜치명
 
 # 브랜치목록조회
 git branch
+
+# 브랜치 생성과 전환 동시에
+git checkout -b 브랜치명
+
+# 
 
 
