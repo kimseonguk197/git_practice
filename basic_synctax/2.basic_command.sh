@@ -90,6 +90,9 @@ git push origin v1.0
 # 태그 목록 조회
 git tag
 
+# 브랜치생성
+# 현재 checkout 하고 있는 브랜치를 기준으로 브랜치생성
+git branch 브랜치명
 
 # 브랜치생성
 # 현재 checkout 하고 있는 브랜치를 기준으로 브랜치생성
@@ -103,7 +106,3 @@ git branch
 
 # 브랜치 생성과 전환 동시에
 git checkout -b 브랜치명
-
-# 
-
-
