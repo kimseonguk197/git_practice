@@ -92,8 +92,13 @@ git tag
 # 현재 checkout 하고 있는 브랜치를 기준으로 브랜치생성
 git branch 브랜치명
 
+# 브랜치생성
+# 현재 checkout 하고 있는 브랜치를 기준으로 브랜치생성
+git branch 브랜치명
+
 # 해당 브랜치로 전환
 git checkout 브랜치명
 
 # 브랜치목록조회
 git branch
+
