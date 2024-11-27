@@ -74,7 +74,8 @@ git stash
 # 저장한 최신의 작업목록 꺼내기
 git stash pop
 # 저장한 목록은 놔둔채 작업목록 적용
-git stash apply stash@인덱스값
+# git stash apply 인덱스값
+git stash apply 1
 # 저장한 작업사항 목록조회
 git stash list
 # 저장한 작업목록 상세조회
