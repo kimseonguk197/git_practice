@@ -33,3 +33,6 @@ git push origin main --force
 
 # pull은 원격의 커밋사항을 local로 다운로드(working directory까지 반영)
 git pull origin main
+
+# 특정 commit ID로의 전환
+git checkout 커밋ID
