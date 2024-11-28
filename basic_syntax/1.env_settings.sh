@@ -42,3 +42,13 @@ git checkout -b main #init시 default가 master이므로 main으로 변경
 git add .
 git commit -m "first 커밋"
 git push origin main
+
+# 사용자지정방법
+# 전역적 사용자(이름, email)지정
+git config --global user.name "유저네임"
+git config --global user.email "유저email"
+
+# 지역적 사용자(이름, email)지정
+# 현재 레파지토리에 한해서만 사용자 변경
+git config --local user.name "유저네임"
+git config --local user.email "유저email"
