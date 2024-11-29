@@ -91,4 +91,15 @@ git stash list
 # 저장한 작업내용 상세조회
 git stash show -p 인덱스번호
 # 저장목록 전체삭제
-git stash clear
+git stash cleareee
+
+# tag관련 명령어
+git tag v1.0.0
+git tag v1.0.0 -m "1.주요사항 2.주요사항"
+
+# tag release
+# commit push와 상관없이 태그 별도 push
+git push origin v1.0.0
+
+# 태그 목록조회
+git tag
