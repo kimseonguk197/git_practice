@@ -11,10 +11,10 @@ git push origin 브랜치명
 
 # github 인증방법 2가지
 # 1. token인증방식 : github에서 직접 보안키(token) 발급
-키체인 들어가서 기존에 있던 키를 삭제하고 새로운 키체인을 등록
-이름: https://github.com
-계정: milcho0604
-암호: 토큰
+# 존에 있던 키를 삭제하고 새로운 키체인을 등록
+# 이름: https://github.com
+# 계정: milcho0604
+# 암호: 토큰
 # 2. 제3자인증(oauth)방식
 
 
