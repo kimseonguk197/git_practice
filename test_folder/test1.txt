@@ -4,8 +4,4 @@ hello world3
 
 good vscode
 good vscode
-good vscode1
-good vscode2
-
-
 
