@@ -40,14 +40,6 @@ git checkout master
 git pull origin 브랜치명
 
 # git 작업 취소
-# working directory에서 수정사항만 취소
-git checkout .
-# working directory에서 추가파일 취소
-git clean --fdx
-# 수정취소 동시에
-git checkout . | git clean --fdx
-# staging area에서의 취소
-git reset
 # commit 이후의 취소
 git reset head~1
 git reset head^
